@@ -1,0 +1,31 @@
+#navbar{
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.text-modif{
+    font-size: 2rem;
+    line-height: 1.2;    
+
+}
+.lead{
+    font-size: 1rem;
+    line-height: 1.2;
+}
+#about .about-content{
+    display: block;
+    text-align: center;
+}
+#about .about-content img{
+    width: 100%;
+    margin: 1rem 0 0 0 ;
+}
+#programs .boxes{
+    display: block;
+}
+#trainers .trainers-boxes {
+    flex-direction: column;
+}
+#contact{
+    flex-direction: column;
+    height: 1000px;
+}

@@ -1,0 +1,241 @@
+/*  roboto  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* color use : blanc :FFFFFF         rouge: E63434   yellow : FFFF00   gris: 0F0D21        */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* pour garder le width et donner une autre valeur pour padding    */
+}
+html, body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none; /* tna7ilek star mta3 lien    */
+}
+
+
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.bg-gris{
+    background-color:#16142a ;
+    color:#fff ;
+     
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;   
+    position: sticky;
+    top: 0;   
+    z-index: 1;
+   
+}
+
+#navbar .logo img{
+    width: 100px;
+    border-radius: 100%;
+}
+#navbar  ul{
+    list-style: none;
+    display: flex;
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 1rem;
+}
+#navbar ul li a:hover {
+    background-color:#E63434 ;
+    border-radius: 5px;
+}
+
+
+.esp-pad{
+    padding: 1.5rem;
+}
+.text-color{
+    color:#E63434;
+}
+.espace-pad{
+    padding: 1.5rem 0;
+}
+
+.text-modif{
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+.boutton{
+    background-color:#E63434 ;
+    color: #fff;
+    padding: 0.75rem 1.5rem ;
+    opacity: 0.8;
+}
+.boutton:hover{
+    background-color:#08D9D6 ;
+}
+.text-center{
+    text-align: center;
+}
+#part1{
+    background: #0F0D21 url(../img/imag1.jpg) no-repeat center center/cover;
+    height: 100vh; /* view port higth te5ou lport lkol   */
+    color: #fff;
+}
+#part1 .part1-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.6) ;
+}
+
+
+.bg-blanc{
+    background-color: #EAEAEA;
+    color: #252A34;
+
+}
+#about .about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#about .about-content div,
+#about .about-content img {
+    flex: 1;
+}
+
+#about .about-content img{
+    width: 50%;
+    margin-left: 5rem;
+    border : 5px solid #fff;
+}
+
+.box-shadow{
+    box-shadow: 0 0 2px #252A34;
+}
+.about-titre{
+    font-size: 2rem;
+}
+.lead{
+    font-size: 1.6rem;
+}
+
+#part2{
+    background: url(../img/imag3.jpg) no-repeat center center/cover;
+    color: #fff;
+}
+#part2 .part2-content{    
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.6);
+    padding: 6rem;
+    overflow: hidden;
+      
+}
+#part2 .part2-content .container p {
+    margin-bottom: 1.5rem;
+}
+#programs{
+    color: #252A34;
+}
+#programs .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#programs .boxes .box{
+    flex: 1;
+    padding: 1rem;
+}
+#programs .boxes .box img{
+    width: 100px;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+#trainers .trainers-boxes{
+display: flex;
+
+}
+#trainers .trainers-boxes .trainer-boxe{
+background-color: #fff;
+flex: 1;
+border-radius: 5px; 
+margin: 1rem;
+
+}
+#trainers .trainers-boxes .trainer-boxe img{
+    height: 65%;
+    width: 100% ;
+    margin-bottom: 10px;   
+    
+}
+
+#trainers .trainers-boxes .trainer-boxe ul {
+display: flex;
+list-style: none;
+}
+#trainers .trainers-boxes .trainer-boxe ul li a{
+color: #252A34;
+margin-right: 10px;
+}
+#trainers .trainers-boxes .trainer-boxe ul li a:hover{
+    color: #E63434;
+}
+
+.bg-new{
+    background-color: #16142a;
+    color: #fff;
+
+}
+#contact {
+    display: flex;
+}
+#contact .contact-us, #contact .map{
+flex: 1;
+}
+#contact .contact-us input,
+#contact .contact-us textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    margin-bottom: 1rem;
+    outline: none;
+}
+#contact .contact-us .form-groupe{
+    display: flex;
+
+}
+
+#contact .contact-us .form-groupe input[type="text"]{
+    margin-right: 0.75rem;
+}
+.bg-dark{
+    background-color:#000;
+    color:#fff;
+
+}
+
+#contact .map iframe {
+    width: 100%;
+    height: 100%;
+}
